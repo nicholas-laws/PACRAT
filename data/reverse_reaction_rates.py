@@ -7,28 +7,31 @@ import pandas as pd
 import cantera as ct
 import math
 import os
+from typing import *
 
 """
 A function to generate the time-dependent reverse reaction rate coefficients for the user-selected combustion mechanism.
 """
-def reactor(mechanism, reactor_temperature, reactor_pressure, inlet_concentrations, input_temp, input_time, file_name):
+def reactor(mechanism: str, reactor_temperature: float, reactor_pressure: float, 
+            inlet_concentrations: Dict[str, float], input_temp: np.array, 
+            input_time: np.array, file_name: str):
     """
     Parameters:
     -----------
     mechanism : str
         A string representing the filename of the user-selected combustion mechanism.
     reactor_temperature : float
-        A float representing the user-selected temperature of the WSR.
+        A float representing the user-selected temperature of the well-stirred reactor (WSR).
     reactor_pressure : float
-        A float representing the user-selected pressure of the WSR.
-    inlet_concentrations : Dict
-        A dictionary where the key is the inlet species and the value is the concentration of these species.
+        A float representing the user-selected pressure of the WSR (in atm).
+    inlet_concentrations : Dict[str, float]
+        A dictionary where the key is the inlet species and the value is the concentration (mol/cm³) of each species.
     input_temp : np.array
         A numpy array representing the time-dependent temperature of the system.
     input_time : np.array
         A numpy array representing the time associated with the combustion data.
     file_name : str
-        A string representing the output filename.
+        A string representing the output filename for saving the results.
     """
     # Get the directory of the currently running script.
     dir = os.path.dirname(os.path.abspath(__file__))

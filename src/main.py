@@ -18,8 +18,8 @@ sigma = FWHM/(2*np.sqrt(2*np.log(2)))
 element_of_interest = "O"
 # Define combustion related data to parse.
 combustion_mechanism = os.path.join(dir, "data/combustion/gri30.yaml") 
-combustion_data = pd.read_csv(os.path.join(dir, "data/combustion/result_a00_b05_c00104_adj.csv"))
-reverse_rate_coeffs = pd.read_csv(os.path.join(dir, "data/combustion/result_a00_b05_c00104_reverse_rr.csv")) 
+combustion_data = pd.read_csv(os.path.join(dir, "data/combustion/result_a00_b05_c00040_adj.csv"))
+reverse_rate_coeffs = pd.read_csv(os.path.join(dir, "data/combustion/result_a00_b05_c00040_reverse_rr.csv")) 
 combustion_temperature = combustion_data["T"].to_numpy()
 
 # User-defined cutoff for combustion-related element flux.
@@ -34,7 +34,7 @@ combustion_flux_dict = get_flux_dict(combustion_reactions, element_of_interest, 
 
 # Define plasma related data to parse.
 plasma_mechanism = os.path.join(dir, "data/plasma/kinet_CH4_PAC_V5_nrg.inp") 
-plasma_data = pd.read_csv(os.path.join(dir, "data/plasma/result_a00_b05_c00104_PD.csv"))
+plasma_data = pd.read_csv(os.path.join(dir, "data/plasma/result_a00_b05_c00040_PD.csv"))
 
 # Read the .INP plasma mechanism of interest.
 V5_plasma = read_inp(plasma_mechanism)

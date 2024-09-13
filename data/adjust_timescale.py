@@ -5,6 +5,7 @@
 import pandas as pd
 import time
 import os
+from typing import *
 
 """
 A function to adjust the combustion data to be tracked on the ZDPlasKin timescale.

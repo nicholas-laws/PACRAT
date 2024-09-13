@@ -3,15 +3,9 @@
 
 ## Imports ##
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
-from comb_pathways import *
 import cantera as ct
 import math
-import networkx as nx
-import matplotlib.colors as mcolors
-from fuzzywuzzy import fuzz
-import re
 import os
 
 """

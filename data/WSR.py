@@ -7,7 +7,6 @@ import time
 import cantera as ct
 import matplotlib.pyplot as plt
 import numpy as np
-from cantera_validation import *
 import random
 from IDT import *
 import os

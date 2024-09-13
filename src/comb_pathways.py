@@ -11,7 +11,6 @@ from scipy.constants import Avogadro
 import matplotlib.colors as mcolors
 from networkx.drawing.nx_agraph import graphviz_layout
 from netgraph import Graph
-from fuzzywuzzy import fuzz
 import re
 from scipy import integrate
 from typing import *

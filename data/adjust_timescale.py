@@ -2,8 +2,6 @@
 # Date: 2024
 
 ## Imports ##
-from plasma_pathways import *
-from plasma_chemistry_objs import *
 import pandas as pd
 import time
 import os

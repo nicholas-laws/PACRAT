@@ -1,3 +1,6 @@
+# Created by: Nicholas Laws
+# Date: 2024
+
 class Reaction:
     def __init__(self, equation, rate, species):
         self.equation = equation

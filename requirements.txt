@@ -1,4 +1,4 @@
-# Core Scientific Libraries
+# Scientific Libraries
 numpy==2.0.2
 pandas==2.2.0
 cantera==3.0.1

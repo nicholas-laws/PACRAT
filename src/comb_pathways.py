@@ -701,7 +701,7 @@ def coupled_network_plotter(flux_dict: Dict[str, np.array]):
     sm.set_array([])
     # Create a new axis for the colorbar
     cax = fig.add_axes([0.88, 0.15, 0.03, 0.7]) # Adjust position as necessary
-    cbar = plt.colorbar(sm, cax=cax, shrink=0.75)
+    cbar = plt.colorbar(sm, cax=cax, shrink=0.5)
     cbar.set_label(r'Element Flux ($\frac{mol}{cm^3}$)', labelpad=15)
     # Turn the axis off.
     ax.axis('off')

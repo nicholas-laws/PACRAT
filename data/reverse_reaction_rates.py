@@ -72,7 +72,7 @@ def reactor(mechanism, reactor_temperature, reactor_pressure, inlet_concentratio
     reverse_rate_coeff_data.to_csv(csv_file, index=False)
 
 # Get the directory of the currently running script.
-dir = os.path.dirname(os.path.abspath(__file__))
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Define combustion related data to parse. 
 mechanism = os.path.join(dir, "data/combustion/gri30.yaml") 
 comb_data = os.path.join(dir, "data/combustion/result_a00_b05_c00104_adj.csv") 

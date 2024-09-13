@@ -54,7 +54,7 @@ def process_plasma_data(plasma_data: pd.DataFrame, comb_data: pd.DataFrame, file
     return comb_data_adj
 
 # Get the directory of the currently running script.
-dir = os.path.dirname(os.path.abspath(__file__))
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Define the filepath of the plasma kinetic mechanism.
 mech_path = os.path.join(dir, "data/plasma/kinet_CH4_PAC_V5_nrg.inp") 
 # Read the user-selected plasma data. 

@@ -8,7 +8,7 @@ from plasma_chemistry_objs import *
 import os
 
 # Get the directory of the currently running script.
-dir = os.path.dirname(os.path.abspath(__file__))
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Define numerical constants.
 R = 8.31432e3 
 P0 = 101.325e3

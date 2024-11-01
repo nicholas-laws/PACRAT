@@ -30,7 +30,7 @@ In order to install PACRAT on your machine, please follow these instructions:
 Open your terminal or command prompt and run the following command to clone the repository:
 
 ```bash
-git clone https://github.mit.edu/MIT-APG/PAC_Reaction_Pathways_Analysis.git
+git clone https://github.mit.edu/MIT-APG/PAC_Reaction_Pathways_Analysis.git](https://github.com/nicholas-laws/PACRAT.git
 ```
 
 #### 2. Navigate into the PACRACT directory

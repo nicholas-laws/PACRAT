@@ -51,7 +51,7 @@ python -c "import numpy; import pandas; import cantera; import matplotlib; impor
 ```
 
 #### 5. Download the `data` folder
-By accessing the APG Dropbox, you will find a folder labeled `Nick Thesis - March 13 2024`. Please download the `data.zip` file and move this file into the `PAC_Reaction_Pathways_Analysis` directory. In the `PAC_Reaction_Pathways_Analysis`, run the following command:
+By accessing the APG Dropbox, you will find a folder labeled `Nick Thesis - March 13 2024`. Please download the `data.zip` file and move this file into the `PACRAT` directory. In the `PACRAT`, run the following command:
 ```bash
 unzip data.zip; rm -i *.zip
 ```

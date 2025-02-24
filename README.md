@@ -127,7 +127,7 @@ If you have any questions, suggestions, or need support with **PACRAT**, feel fr
 **Name:** Nicholas Laws
 
 **Role:** Undergraduate Research Assistant
- 
+
 **Affiliation:** MIT Aerospace Plasma Group
 
 ### **Email**
@@ -143,6 +143,6 @@ Professional networking and collaborations:
 ### **PACRAT Repository**
 
 For issues, feature requests, or contributions, please use the GitHub Issues page:  
-🐞 [https://github.mit.edu/MIT-APG/PAC_Reaction_Pathways_Analysis/issues](https://github.mit.edu/MIT-APG/PAC_Reaction_Pathways_Analysis/issues)
+🐞 [ https://github.com/nicholas-laws/PACRAT/issues]( https://github.com/nicholas-laws/PACRAT/issues)
 
 ---

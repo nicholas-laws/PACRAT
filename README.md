@@ -133,7 +133,7 @@ If you have any questions, suggestions, or need support with **PACRAT**, feel fr
 ### **Email**
 
 For direct inquiries, please email me at:  
-📧 [nrl49@cornell.edu](mailto:nrl49@cornell.edu)
+📧 [nicholaslaws8@gmail.com](mailto:nicholaslaws8@gmail.com)
 
 ### **LinkedIn**
 
